@@ -22,12 +22,16 @@ public class PlayerMovement : MonoBehaviour
     {
         EventManager.StartListening ("PlayerTalking", OnPlayerTalking);
         EventManager.StartListening ("PlayerStopTalking", OnPlayerStopTalking);
+        EventManager.StartListening ("MonokelOn", OnMonokelOn);
+        EventManager.StartListening ("MonokelOff", OnMonokelOff);
     }
 
     void OnDisable ()
     {
         EventManager.StopListening ("PlayerTalking", OnPlayerTalking);
         EventManager.StopListening ("PlayerStopTalking", OnPlayerStopTalking);
+        EventManager.StopListening ("MonokelOn", OnMonokelOn);
+        EventManager.StopListening ("MonokelOff", OnMonokelOff);
     }
     
     void Awake()
@@ -46,6 +50,16 @@ public class PlayerMovement : MonoBehaviour
     {
         moveState = MoveState.Moving;
     }
+
+    void OnMonokelOn()
+    {
+        moveState = MoveState.Frozen;
+    }
+
+    void OnMonokelOff()
+    {
+        moveState = MoveState.Moving;
+    }
     
     void FixedUpdate()
     {
@@ -55,6 +69,7 @@ public class PlayerMovement : MonoBehaviour
                 MovementTick();
                 break;
             case MoveState.Frozen:
+                rigidBody.velocity = Vector2.zero;
                 break;
         }
     }

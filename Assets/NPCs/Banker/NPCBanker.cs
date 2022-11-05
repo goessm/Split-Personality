@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using DialogueEditor;
 
-public class NPCLittleGirl : NPC
+public class NPCBanker : NPC
 {
 
     void Start()
