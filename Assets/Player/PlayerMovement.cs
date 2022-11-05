@@ -10,12 +10,28 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 moveInput;
     private Rigidbody2D rigidBody;
     private MoveState moveState;
+    private List<GameObject> npcsInRange = new List<GameObject>();
 
 
     private enum MoveState {
         Moving,
         Frozen,
     }
+
+    public void meetNPC(GameObject npc)
+    {
+        if (!npcsInRange.Contains(npc)) {
+            npcsInRange.Add(npc);
+        }
+    }
+
+    public void unmeetNPC(GameObject npc)
+    {
+        if (npcsInRange.Contains(npc)) {
+            npcsInRange.Remove(npc);
+        }
+    }
+
     // Start is called before the first frame update
     
     void OnEnable ()
@@ -89,6 +105,13 @@ public class PlayerMovement : MonoBehaviour
 
     public void OnMoveInput(InputAction.CallbackContext ctx) {
         moveInput = ctx.ReadValue<Vector2>();
+    }
+
+    public void OnTalk(InputAction.CallbackContext ctx)
+    {
+        if (ctx.performed && npcsInRange.Count > 0) {
+            npcsInRange[0].GetComponent<NPC>().talkToNpc();
+        }
     }
 
     void MovementTick()

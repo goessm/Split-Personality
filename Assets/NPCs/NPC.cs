@@ -8,6 +8,24 @@ public abstract class NPC : MonoBehaviour
 
     public NPCConversation[] conversations;
     private int conversationIndex = 0;
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player")) {
+            other.GetComponent<PlayerMovement>().meetNPC(gameObject);
+            print("OnTriggerEnter2D");
+            //talkToNpc();
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Player")) {
+            other.GetComponent<PlayerMovement>().unmeetNPC(gameObject);
+            print("OnTriggerExit2D");
+        }
+    }
+
     public void talkToNpc()
     {
         if (conversations.Length > 0)
