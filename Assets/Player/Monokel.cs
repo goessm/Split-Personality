@@ -29,6 +29,7 @@ public class Monokel : MonoBehaviour
         monokel = true;
         gameObject.SetActive(monokel);
         EventManager.TriggerEvent("MonokelOn");
+        GameState.monokel = monokel;
     }
 
     public void MonokelOff()
@@ -37,6 +38,7 @@ public class Monokel : MonoBehaviour
         monokel = false;
         gameObject.SetActive(monokel);
         EventManager.TriggerEvent("MonokelOff");
+        GameState.monokel = monokel;
     }
 
     void Update()
