@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField] private float moveSpeed;
+    private Vector2 moveSpeed = new Vector2(100, 50);
     private Vector2 moveInput;
     private Rigidbody2D rigidBody;
     private MoveState moveState;
@@ -16,10 +16,32 @@ public class PlayerMovement : MonoBehaviour
     }
     // Start is called before the first frame update
     
+    void OnEnable ()
+    {
+        EventManager.StartListening ("PlayerTalking", OnPlayerTalking);
+        EventManager.StartListening ("PlayerStopTalking", OnPlayerStopTalking);
+    }
+
+    void OnDisable ()
+    {
+        EventManager.StopListening ("PlayerTalking", OnPlayerTalking);
+        EventManager.StopListening ("PlayerStopTalking", OnPlayerStopTalking);
+    }
+    
     void Awake()
     {
         DontDestroyOnLoad(this.gameObject);
         rigidBody = GetComponent<Rigidbody2D>();
+        moveState = MoveState.Moving;
+    }
+
+    void OnPlayerTalking()
+    {
+        moveState = MoveState.Frozen;
+    }
+
+    void OnPlayerStopTalking()
+    {
         moveState = MoveState.Moving;
     }
     
@@ -52,7 +74,7 @@ public class PlayerMovement : MonoBehaviour
 
     void MovementTick()
     {
-        rigidBody.velocity = moveInput * moveSpeed * Time.deltaTime;
+        rigidBody.velocity = new Vector2(moveInput.x * moveSpeed.x * Time.deltaTime, moveInput.y * moveSpeed.y * Time.deltaTime);
         if (moveInput.x > 0.01 || moveInput.y > 0.01) {
             //print(movementInput * moveSpeed);
             //print(rb.velocity);
