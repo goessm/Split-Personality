@@ -5,10 +5,12 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public Animator animator;
     private Vector2 moveSpeed = new Vector2(100, 50);
     private Vector2 moveInput;
     private Rigidbody2D rigidBody;
     private MoveState moveState;
+
 
     private enum MoveState {
         Moving,
@@ -65,7 +67,9 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        animator.SetFloat("Horizontal", moveInput.x);
+        animator.SetFloat("Vertical", moveInput.y);
+        animator.SetFloat("Speed", moveInput.sqrMagnitude);
     }
 
     public void OnMoveInput(InputAction.CallbackContext ctx) {
