@@ -10,7 +10,10 @@ public abstract class NPC : MonoBehaviour
     private int conversationIndex = 0;
     public void talkToNpc()
     {
-        ConversationManager.Instance.StartConversation(conversations[conversationIndex]);
+        if (conversations.Length > 0)
+        {
+            ConversationManager.Instance.StartConversation(conversations[conversationIndex]);
+        }
     }
 
     public void nextConversation()

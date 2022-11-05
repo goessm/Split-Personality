@@ -6,10 +6,16 @@ using UnityEngine.Events;
 public class Clickable : MonoBehaviour
 {
     public UnityEvent OnClick;
+    public UnityEvent OnMonokelClick;
     void OnMouseDown()
     {
         print("clicked!");
-        if (!GameState.monokel) print("But monokel was off...");
-        if (OnClick != null) OnClick.Invoke();
+        if (GameState.monokel)
+        {
+            OnMonokelClick.Invoke();
+        } else
+        {
+            OnClick.Invoke();
+        }
     }
 }
