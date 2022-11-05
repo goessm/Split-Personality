@@ -380,6 +380,10 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 9caa3d8a-6b2f-4e8e-8bad-6ede561bd9be
     m_ActionName: UI/TrackedDeviceOrientation
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 78bbda77-c436-477e-8802-ef8ba1da2b8e
+    m_ActionName: Player/Monokel[/Keyboard/m]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -3109,6 +3113,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2283299332417149056, guid: 07814b2d96b0d9848910a14a9645020b, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5459827664917683057, guid: 07814b2d96b0d9848910a14a9645020b, type: 3}
       propertyPath: m_CullingMask.m_Bits
       value: 2147483647
