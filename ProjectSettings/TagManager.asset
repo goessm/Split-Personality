@@ -41,3 +41,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Monokel
+    uniqueID: 3491689445
+    locked: 0
