@@ -12,6 +12,10 @@ public abstract class NPC : MonoBehaviour
     {
         if (conversations.Length > 0)
         {
+            print("talking");
+            print(conversations);
+            print(conversations[conversationIndex]);
+            print(conversationIndex);
             ConversationManager.Instance.StartConversation(conversations[conversationIndex]);
         }
     }
