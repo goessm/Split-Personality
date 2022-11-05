@@ -1,21 +1,41 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class Monokel : MonoBehaviour
 {
     private bool monokel = false;
-    void MonokelOn()
+    
+    public void OnMonokelInput(InputAction.CallbackContext ctx)
+    {
+        print("monokel key pressed");
+        if (ctx.performed) {
+            ToggleMonokel();
+        }
+    }
+
+    public void ToggleMonokel()
+    {
+        if (monokel) {
+            MonokelOff();
+        } else {
+            MonokelOn();
+        }
+    }
+    public void MonokelOn()
     {
         if (monokel) return;
         monokel = true;
+        gameObject.SetActive(monokel);
         EventManager.TriggerEvent("MonokelOn");
     }
 
-    void MonokelOff()
+    public void MonokelOff()
     {
         if (!monokel) return;
         monokel = false;
+        gameObject.SetActive(monokel);
         EventManager.TriggerEvent("MonokelOff");
     }
 
