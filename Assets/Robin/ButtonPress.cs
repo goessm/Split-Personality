@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class ButtonPress : MonoBehaviour
 {
+    private bool switching = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,9 +15,12 @@ public class ButtonPress : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (true) //Still need to add ButtonPress Event
-        {
-            Debug.Log(Input.touchCount);
+    }
+
+    public void GotoMain()
+    {
+        if (!switching) {
+            switching = true;
             SceneManager.LoadScene("Main Scene");
         }
     }
