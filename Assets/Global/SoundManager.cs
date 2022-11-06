@@ -13,6 +13,10 @@ public class SoundManager : MonoBehaviour
 	public float HighPitchRange = 1.05f;
 
 	public AudioClip getItemClip;
+	public AudioClip screamClip;
+	public AudioClip correctClip;
+	public AudioClip wrongClip;
+	public AudioClip monokelSound;
 	// Singleton instance.
 	public static SoundManager Instance = null;
 	

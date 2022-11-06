@@ -1153,9 +1153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Music:
-  - {fileID: 8300000, guid: f85e1d8362c8af743991cb738bc5029b, type: 3}
-  - {fileID: 8300000, guid: e05c77d24ae5d974d991ed65aaf4451b, type: 3}
-  - {fileID: 8300000, guid: f636234273300aa4180551e1bb306938, type: 3}
+  - {fileID: 8300000, guid: c37cf3a956bbfcd41a15e88105641c4e, type: 3}
 --- !u!1001 &376351685
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5664,7 +5662,7 @@ PrefabInstance:
     - target: {fileID: 8596317695993711085, guid: c1e98e04e6168c54e8214cc2fd59c2c1, type: 3}
       propertyPath: getItemClip
       value: 
-      objectReference: {fileID: 8300000, guid: 63c26b979eca1e94191e023acd7396c1, type: 3}
+      objectReference: {fileID: 8300000, guid: 82e415870908100448b9c483f568ea38, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c1e98e04e6168c54e8214cc2fd59c2c1, type: 3}
 --- !u!1 &4150261120296006726

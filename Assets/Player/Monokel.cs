@@ -36,6 +36,7 @@ public class Monokel : MonoBehaviour
         if (monokel) return;
         if (playerMover && playerMover.moveState != PlayerMovement.MoveState.Moving) return;
         monokel = true;
+        SoundManager.Instance.Play(SoundManager.Instance.monokelSound);
         gameObject.SetActive(monokel);
         EventManager.TriggerEvent("MonokelOn");
         GameState.monokel = monokel;

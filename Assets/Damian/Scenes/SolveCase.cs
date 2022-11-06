@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SolveCase : MonoBehaviour
 {
@@ -17,9 +18,15 @@ public class SolveCase : MonoBehaviour
         textbox4.transform.localScale = new Vector3(0,0,0);
     }
 
-    void EndGame()
+    void EndGame(bool correctChoice)
     {
         gameEnded = true;
+        if (correctChoice) {
+            SoundManager.Instance.Play(SoundManager.Instance.correctClip);
+        } else {
+            SoundManager.Instance.Play(SoundManager.Instance.wrongClip);
+        }
+        //SceneManager.LoadScene("Menu");
     }
 
     public void SetBanker()
@@ -27,7 +34,7 @@ public class SolveCase : MonoBehaviour
         if (gameEnded) return;
         GameObject textbox = GameObject.Find("ChooseBanker");
         textbox.transform.localScale = new Vector3(1,1,1);
-        EndGame();
+        EndGame(false);
     }
 
     public void SetBoy()
@@ -35,7 +42,7 @@ public class SolveCase : MonoBehaviour
         if (gameEnded) return;
         GameObject textbox = GameObject.Find("ChooseBoy");
         textbox.transform.localScale = new Vector3(1,1,1);
-        EndGame();
+        EndGame(true);
     }
 
     public void SetGirl()
@@ -43,7 +50,7 @@ public class SolveCase : MonoBehaviour
         if (gameEnded) return;
         GameObject textbox = GameObject.Find("ChooseGirl");
         textbox.transform.localScale = new Vector3(1,1,1);
-        EndGame();
+        EndGame(false);
     }
 
     public void SetVictim()
@@ -51,6 +58,6 @@ public class SolveCase : MonoBehaviour
         if (gameEnded) return;
         GameObject textbox = GameObject.Find("ChooseVictim");
         textbox.transform.localScale = new Vector3(1,1,1);
-        EndGame();
+        EndGame(false);
     }
 }

@@ -50,6 +50,11 @@ MonoBehaviour:
   MusicSource: {fileID: 2258574159262133925}
   LowPitchRange: 0.95
   HighPitchRange: 1.05
+  getItemClip: {fileID: 8300000, guid: 82e415870908100448b9c483f568ea38, type: 3}
+  screamClip: {fileID: 8300000, guid: c3a921f545740e44381235d573ed66fa, type: 3}
+  correctClip: {fileID: 8300000, guid: 9a0271cdad1b5184e9f13318b4b16159, type: 3}
+  wrongClip: {fileID: 8300000, guid: 53c9c4b00eb09684491cc1d523d9895d, type: 3}
+  monokelSound: {fileID: 8300000, guid: 3a2da5a370e700f459c71993bcf7ea2c, type: 3}
 --- !u!1 &5668359407190234349
 GameObject:
   m_ObjectHideFlags: 0

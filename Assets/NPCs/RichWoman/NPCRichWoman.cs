@@ -9,6 +9,7 @@ public class NPCRichWoman : NPC
 
     void Start()
     {
+        SoundManager.Instance.Play(SoundManager.Instance.screamClip);
     }
 
     new private void OnTriggerEnter2D(Collider2D other)
