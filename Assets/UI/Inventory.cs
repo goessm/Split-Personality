@@ -49,7 +49,6 @@ public class Inventory : MonoBehaviour
 
     public static void makeItem2Visible() {
         makeItemVisible(2);
-        findAndSetInactive("LoveLetter");
     }
 
     public static void makeItem3Visible() {

@@ -12,6 +12,7 @@ public class NPCNewsVendor : NPC
 
     public void OnFirstConversationFinish()
     {
+        print("a");
         EventManager.TriggerEvent("SpawnNewspaper");
     }
 

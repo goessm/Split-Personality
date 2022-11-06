@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Main Level/Main Scene.unity
     guid: e227e221bafc4d846b1ceded3d983c35
+  - enabled: 1
+    path: Assets/Damian/Scenes/SolveCase.unity
+    guid: 148600ae69c3e33429aa8bd4afd965f9
   m_configObjects: {}
