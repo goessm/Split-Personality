@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class MainLevel : MonoBehaviour
+public class PlayMusic : MonoBehaviour
 {
     public AudioClip[] Music;
 
