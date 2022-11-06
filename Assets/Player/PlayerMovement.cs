@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using DialogueEditor;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -109,7 +110,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void OnTalk(InputAction.CallbackContext ctx)
     {
-        if (ctx.performed && npcsInRange.Count > 0) {
+        if (ctx.performed && npcsInRange.Count > 0 && !ConversationManager.Instance.IsConversationActive) {
             npcsInRange[0].GetComponent<NPC>().talkToNpc();
         }
     }
