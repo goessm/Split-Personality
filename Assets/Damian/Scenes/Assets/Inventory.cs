@@ -8,6 +8,7 @@ public class Inventory : MonoBehaviour
 {
     void Start()
     {
+        Time.timeScale = 8;
         makeItemInvisible(0);
         makeItemInvisible(1);
         makeItemInvisible(2);
@@ -17,31 +18,41 @@ public class Inventory : MonoBehaviour
     void OnEnable()
     {
         EventManager.StartListening("zeitungPickUp", makeItem0Visible);
-        EventManager.StartListening("teddyPickUp", makeItem1Visible);
+        EventManager.StartListening("stuffedAnimalPickUp", makeItem1Visible);
         EventManager.StartListening("loveletterPickUp", makeItem2Visible);
     }
 
     void OnDisable()
     {
         EventManager.StopListening("zeitungPickUp", makeItem0Visible);
-        EventManager.StopListening("teddyPickUp", makeItem1Visible);
+        EventManager.StopListening("stuffedAnimalPickUp", makeItem1Visible);
         EventManager.StopListening("loveletterPickUp", makeItem2Visible);
+    }
+
+    public static void findAndSetInactive(string name)
+    {
+        GameObject worldItem = GameObject.Find(name);
+        worldItem.SetActive(false);
     }
 
     public static void makeItem0Visible() {
         makeItemVisible(0);
-        GameObject worldItem = GameObject.Find("Zeitung");
-        worldItem.SetActive(false);
+        findAndSetInactive("Zeitung");
     }
 
     public static void makeItem1Visible() {
         makeItemVisible(1);
+        findAndSetInactive("StuffedAnimal");
     }
 
     public static void makeItem2Visible() {
         makeItemVisible(2); // visible im inventar
-        GameObject worldItem = GameObject.Find("LoveLetter");
-        worldItem.SetActive(false);
+        findAndSetInactive("LoveLetter");
+    }
+
+    public static void makeItem3Visible() {
+        makeItemVisible(3);
+        // TODO findAndSetInactive("????");
     }
 
     public static void makeItemVisible(int index)
@@ -58,5 +69,19 @@ public class Inventory : MonoBehaviour
         GameObject itemSlot = invPanel.transform.GetChild(index).gameObject;
         GameObject item = itemSlot.transform.GetChild(0).gameObject;
         item.SetActive(false);
+    }
+
+    public static void onInvItemClick0() { onInvItemClick(0); }
+    public static void onInvItemClick1() { onInvItemClick(1); }
+    public static void onInvItemClick2() { onInvItemClick(2); }
+    public static void onInvItemClick3() { onInvItemClick(3); }
+
+    public static void onInvItemClick(int index)
+    {
+        GameObject invPanel = GameObject.Find("InvPanel");
+        GameObject itemSlot = invPanel.transform.GetChild(index).gameObject;
+        GameObject item = itemSlot.transform.GetChild(0).gameObject;
+        GameObject itemTooltip = item.transform.GetChild(0).gameObject;
+        itemTooltip.SetActive(!itemTooltip.activeSelf);
     }
 }
