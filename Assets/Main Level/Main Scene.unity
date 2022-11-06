@@ -1153,6 +1153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Music:
+  - {fileID: 8300000, guid: f85e1d8362c8af743991cb738bc5029b, type: 3}
   - {fileID: 8300000, guid: e05c77d24ae5d974d991ed65aaf4451b, type: 3}
   - {fileID: 8300000, guid: f636234273300aa4180551e1bb306938, type: 3}
 --- !u!1001 &376351685
@@ -3819,7 +3820,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1247628830}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.181916, y: -2.908818, z: 0.07982285}
+  m_LocalPosition: {x: -7.56, y: -4.16, z: 0.07982285}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3913,7 +3914,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 0dafc007a1f29ce4d887b63e7a1c6bfe, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
