@@ -5,8 +5,13 @@ using UnityEngine.InputSystem;
 
 public class Monokel : MonoBehaviour
 {
-    private bool monokel = false;
+    private bool monokel = true;
     
+    void Start()
+    {
+        MonokelOff();
+    }
+
     public void OnMonokelInput(InputAction.CallbackContext ctx)
     {
         print("monokel key pressed");
