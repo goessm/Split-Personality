@@ -10,4 +10,10 @@ public class NPCBanker : NPC
     {
     }
 
+    public void SpawnStuffedAnimal()
+    {
+        nextConversation();
+        EventManager.TriggerEvent("SpawnStuffedAnimal");
+    }
+
 }

@@ -374,6 +374,62 @@ PrefabInstance:
       propertyPath: m_Name
       value: FirstConversationBanker
       objectReference: {fileID: 0}
+    - target: {fileID: 1360168677504734094, guid: 65bab10bdc872ac418c751ead4422eb2, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1360168677504734094, guid: 65bab10bdc872ac418c751ead4422eb2, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1360168677504734094, guid: 65bab10bdc872ac418c751ead4422eb2, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5137642823928852064}
+    - target: {fileID: 1360168677504734094, guid: 65bab10bdc872ac418c751ead4422eb2, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1360168677504734094, guid: 65bab10bdc872ac418c751ead4422eb2, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SpawnStuffedAnimal
+      objectReference: {fileID: 0}
+    - target: {fileID: 1360168677504734094, guid: 65bab10bdc872ac418c751ead4422eb2, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: NPCBanker, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1360168677504734094, guid: 65bab10bdc872ac418c751ead4422eb2, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2457002207256912288, guid: 65bab10bdc872ac418c751ead4422eb2, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2457002207256912288, guid: 65bab10bdc872ac418c751ead4422eb2, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2457002207256912288, guid: 65bab10bdc872ac418c751ead4422eb2, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5137642823928852064}
+    - target: {fileID: 2457002207256912288, guid: 65bab10bdc872ac418c751ead4422eb2, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2457002207256912288, guid: 65bab10bdc872ac418c751ead4422eb2, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SpawnStuffedAnimal
+      objectReference: {fileID: 0}
+    - target: {fileID: 2457002207256912288, guid: 65bab10bdc872ac418c751ead4422eb2, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: NPCBanker, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2457002207256912288, guid: 65bab10bdc872ac418c751ead4422eb2, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 4183968308104551022, guid: 65bab10bdc872ac418c751ead4422eb2, type: 3}
       propertyPath: m_RootOrder
       value: 0
