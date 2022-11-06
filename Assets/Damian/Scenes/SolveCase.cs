@@ -26,7 +26,7 @@ public class SolveCase : MonoBehaviour
         } else {
             SoundManager.Instance.Play(SoundManager.Instance.wrongClip);
         }
-        //SceneManager.LoadScene("Menu");
+        SceneManager.LoadScene("Menu");
     }
 
     public void SetBanker()

@@ -56,7 +56,7 @@ public class PlayerMovement : MonoBehaviour
     
     void Awake()
     {
-        DontDestroyOnLoad(this.gameObject);
+        //DontDestroyOnLoad(this.gameObject);
         rigidBody = GetComponent<Rigidbody2D>();
         moveState = MoveState.Moving;
         monokel = GameObject.FindObjectOfType<Monokel>();
