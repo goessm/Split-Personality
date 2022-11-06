@@ -8,7 +8,7 @@ public class Inventory : MonoBehaviour
 {
     void Start()
     {
-        //Time.timeScale = 8;
+        Time.timeScale = 8;
         makeItemInvisible(0);
         makeItemInvisible(1);
         makeItemInvisible(2);

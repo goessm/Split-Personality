@@ -301,6 +301,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FirstConversationGirl
       objectReference: {fileID: 0}
+    - target: {fileID: 5065137764243207135, guid: 9dbfea0cb610ca4419e5f0561e6b9612, type: 3}
+      propertyPath: json
+      value: "{\"Options\":[],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":1}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":154.5,\"yPos\":30},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Sir,
+        have you seen my plushie? It\xB4s really important to me.\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Little
+        Girl\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":2}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":237.5,\"yPos\":172.200012},\"ID\":1,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"...
+        You can glare at me for as long as you want!\",\"parentUIDs\":[0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Little
+        Girl\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":336.5,\"yPos\":312.2},\"ID\":2,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Until
+        I got it back, I won`t tell you anything!\",\"parentUIDs\":[1],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Little
+        Girl\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
+      objectReference: {fileID: 0}
     - target: {fileID: 8399630346658510342, guid: 9dbfea0cb610ca4419e5f0561e6b9612, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -370,6 +380,61 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4748820573108294689}
     m_Modifications:
+    - target: {fileID: 347292224318803240, guid: e2f4b851285692b42a954f4994decaa5, type: 3}
+      propertyPath: json
+      value: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":295.5,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"My
+        plushie! There it is! I''ve looked everywhere for it! Thank you, Mister!","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Little
+        Girl","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":2}],"EditorInfo":{"isRoot":false,"xPos":380.5,"yPos":164.200012},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"Why
+        are you staring at me with such a dark expression?! ","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Little
+        Girl","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":false,"xPos":474.5,"yPos":302.2},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"!
+        T-that`s! I can explain! I-I... *sigh* ","parentUIDs":[1],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Little
+        Girl","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":4}],"EditorInfo":{"isRoot":false,"xPos":420.3,"yPos":441.8},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"I
+        admit it, I stole that old geezer`s pocket watch.","parentUIDs":[2],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Little
+        Girl","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":5}],"EditorInfo":{"isRoot":false,"xPos":476.3,"yPos":574.8},"ID":4,"ParamActions":[],"TMPFontGUID":null,"Text":"But
+        can you hold it against me? He always throws rocks at us...","parentUIDs":[3],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Little
+        Girl","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":6}],"EditorInfo":{"isRoot":false,"xPos":465.3,"yPos":703.8},"ID":5,"ParamActions":[],"TMPFontGUID":null,"Text":"B-but!
+        I didn`t steal that lady`s necklace! That`s why I hid my plushie.","parentUIDs":[4],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Little
+        Girl","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":7}],"EditorInfo":{"isRoot":false,"xPos":466.3,"yPos":816.8},"ID":6,"ParamActions":[],"TMPFontGUID":null,"Text":"If
+        they found thet pocket watch on me, they would surely blame me for it!","parentUIDs":[5],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Little
+        Girl","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":8}],"EditorInfo":{"isRoot":false,"xPos":488.3,"yPos":938.8},"ID":7,"ParamActions":[],"TMPFontGUID":null,"Text":"Do
+        you believe me?","parentUIDs":[6],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Little
+        Girl","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":9}],"EditorInfo":{"isRoot":false,"xPos":518.300049,"yPos":1043.8},"ID":8,"ParamActions":[],"TMPFontGUID":null,"Text":"...","parentUIDs":[7],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Little
+        Girl","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":10}],"EditorInfo":{"isRoot":false,"xPos":531.300049,"yPos":1162.8},"ID":9,"ParamActions":[],"TMPFontGUID":null,"Text":"Thank
+        you, Mister! You are really nice.","parentUIDs":[8],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Little
+        Girl","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":11}],"EditorInfo":{"isRoot":false,"xPos":527.300049,"yPos":1296.8},"ID":10,"ParamActions":[],"TMPFontGUID":null,"Text":"Earlier
+        the banker buried something in his pocket.","parentUIDs":[9],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Little
+        Girl","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":532.300049,"yPos":1460.8},"ID":11,"ParamActions":[],"TMPFontGUID":null,"Text":"Let
+        me go get it for you!","parentUIDs":[10],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Little
+        Girl","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 347292224318803240, guid: e2f4b851285692b42a954f4994decaa5, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 347292224318803240, guid: e2f4b851285692b42a954f4994decaa5, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 347292224318803240, guid: e2f4b851285692b42a954f4994decaa5, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 7519207807871090055}
+    - target: {fileID: 347292224318803240, guid: e2f4b851285692b42a954f4994decaa5, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 347292224318803240, guid: e2f4b851285692b42a954f4994decaa5, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: GiveLoveLetter
+      objectReference: {fileID: 0}
+    - target: {fileID: 347292224318803240, guid: e2f4b851285692b42a954f4994decaa5, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: NPCLittleGirl, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 347292224318803240, guid: e2f4b851285692b42a954f4994decaa5, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 3499661254584577116, guid: e2f4b851285692b42a954f4994decaa5, type: 3}
       propertyPath: m_Name
       value: SecondConversationGirl
@@ -417,6 +482,34 @@ PrefabInstance:
     - target: {fileID: 8663081620510753549, guid: e2f4b851285692b42a954f4994decaa5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8963310588692242896, guid: e2f4b851285692b42a954f4994decaa5, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8963310588692242896, guid: e2f4b851285692b42a954f4994decaa5, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8963310588692242896, guid: e2f4b851285692b42a954f4994decaa5, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 7519207807871090055}
+    - target: {fileID: 8963310588692242896, guid: e2f4b851285692b42a954f4994decaa5, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8963310588692242896, guid: e2f4b851285692b42a954f4994decaa5, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: GiveLoveLetter
+      objectReference: {fileID: 0}
+    - target: {fileID: 8963310588692242896, guid: e2f4b851285692b42a954f4994decaa5, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: NPCLittleGirl, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8963310588692242896, guid: e2f4b851285692b42a954f4994decaa5, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2f4b851285692b42a954f4994decaa5, type: 3}

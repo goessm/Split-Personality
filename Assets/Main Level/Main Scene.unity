@@ -123,6 +123,17 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &20105808 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7519207807871090055, guid: 10fadaab05c311c4ab87d75faf7ea7f8, type: 3}
+  m_PrefabInstance: {fileID: 299127663}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97c26583708249a4b84abba4e128da1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &114344786
 GameObject:
   m_ObjectHideFlags: 0
@@ -181,7 +192,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ae44c9b4c0e646348909893926b200e0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ed4c1fae261af0c48aff84fdc83ea1ae, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -819,6 +830,61 @@ PrefabInstance:
       propertyPath: m_Name
       value: LittleGirl
       objectReference: {fileID: 0}
+    - target: {fileID: 7319418171839255442, guid: 10fadaab05c311c4ab87d75faf7ea7f8, type: 3}
+      propertyPath: json
+      value: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":191.5,"yPos":-1150},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"My
+        plushie! There it is! I''ve looked everywhere for it! Thank you, Mister!","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Little
+        Girl","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":2}],"EditorInfo":{"isRoot":false,"xPos":276.5,"yPos":-1007.80005},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"Why
+        are you staring at me with such a dark expression?! ","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Little
+        Girl","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":false,"xPos":370.5,"yPos":-869.8},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"!
+        T-that`s! I can explain! I-I... *sigh* ","parentUIDs":[1],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Little
+        Girl","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":4}],"EditorInfo":{"isRoot":false,"xPos":316.3,"yPos":-730.2},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"I
+        admit it, I stole that old geezer`s pocket watch.","parentUIDs":[2],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Little
+        Girl","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":5}],"EditorInfo":{"isRoot":false,"xPos":372.3,"yPos":-597.2},"ID":4,"ParamActions":[],"TMPFontGUID":null,"Text":"But
+        can you hold it against me? He always throws rocks at us...","parentUIDs":[3],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Little
+        Girl","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":6}],"EditorInfo":{"isRoot":false,"xPos":361.3,"yPos":-468.2},"ID":5,"ParamActions":[],"TMPFontGUID":null,"Text":"B-but!
+        I didn`t steal that lady`s necklace! That`s why I hid my plushie.","parentUIDs":[4],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Little
+        Girl","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":7}],"EditorInfo":{"isRoot":false,"xPos":362.3,"yPos":-355.2},"ID":6,"ParamActions":[],"TMPFontGUID":null,"Text":"If
+        they found thet pocket watch on me, they would surely blame me for it!","parentUIDs":[5],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Little
+        Girl","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":8}],"EditorInfo":{"isRoot":false,"xPos":384.3,"yPos":-233.200012},"ID":7,"ParamActions":[],"TMPFontGUID":null,"Text":"Do
+        you believe me?","parentUIDs":[6],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Little
+        Girl","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":9}],"EditorInfo":{"isRoot":false,"xPos":414.300049,"yPos":-128.199951},"ID":8,"ParamActions":[],"TMPFontGUID":null,"Text":"...","parentUIDs":[7],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Little
+        Girl","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":10}],"EditorInfo":{"isRoot":false,"xPos":427.300049,"yPos":-9.199951},"ID":9,"ParamActions":[],"TMPFontGUID":null,"Text":"Thank
+        you, Mister! You are really nice.","parentUIDs":[8],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Little
+        Girl","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":11}],"EditorInfo":{"isRoot":false,"xPos":423.300049,"yPos":124.800049},"ID":10,"ParamActions":[],"TMPFontGUID":null,"Text":"Earlier
+        the banker buried something in his pocket.","parentUIDs":[9],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Little
+        Girl","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":428.300049,"yPos":288.800049},"ID":11,"ParamActions":[],"TMPFontGUID":null,"Text":"Let
+        me go get it for you!","parentUIDs":[10],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Little
+        Girl","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319418171839255442, guid: 10fadaab05c311c4ab87d75faf7ea7f8, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319418171839255442, guid: 10fadaab05c311c4ab87d75faf7ea7f8, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319418171839255442, guid: 10fadaab05c311c4ab87d75faf7ea7f8, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 20105808}
+    - target: {fileID: 7319418171839255442, guid: 10fadaab05c311c4ab87d75faf7ea7f8, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319418171839255442, guid: 10fadaab05c311c4ab87d75faf7ea7f8, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: GiveLoveLetter
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319418171839255442, guid: 10fadaab05c311c4ab87d75faf7ea7f8, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: NPCLittleGirl, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319418171839255442, guid: 10fadaab05c311c4ab87d75faf7ea7f8, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 7804468553742670102, guid: 10fadaab05c311c4ab87d75faf7ea7f8, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -982,7 +1048,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1529408066}
   - {fileID: 863952909}
   - {fileID: 4486641350613363905}
   - {fileID: 4150261120296006776}
@@ -1107,7 +1172,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5867411248218357302, guid: 9d177c4331a9b044bb767f078ba7eb7e, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5867411248218357302, guid: 9d177c4331a9b044bb767f078ba7eb7e, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1132,6 +1197,14 @@ PrefabInstance:
     - target: {fileID: 5867411248218357302, guid: 9d177c4331a9b044bb767f078ba7eb7e, type: 3}
       propertyPath: m_SizeDelta.y
       value: 351.1077
+      objectReference: {fileID: 0}
+    - target: {fileID: 5867411248218357302, guid: 9d177c4331a9b044bb767f078ba7eb7e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5867411248218357302, guid: 9d177c4331a9b044bb767f078ba7eb7e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 5867411248218357302, guid: 9d177c4331a9b044bb767f078ba7eb7e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1163,11 +1236,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5867411248218357302, guid: 9d177c4331a9b044bb767f078ba7eb7e, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -320.51312
+      value: -268.5
       objectReference: {fileID: 0}
     - target: {fileID: 5867411248218357302, guid: 9d177c4331a9b044bb767f078ba7eb7e, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -188.41655
+      value: -152
       objectReference: {fileID: 0}
     - target: {fileID: 5867411248218357302, guid: 9d177c4331a9b044bb767f078ba7eb7e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2324,6 +2397,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 114344787}
+  - {fileID: 923356204}
   - {fileID: 1320106807}
   - {fileID: 1769692934}
   m_Father: {fileID: 0}
@@ -2476,7 +2550,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4486641351179627472, guid: 32fed54ad91f8dd41b3e9081bcfc291a, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4486641351179627472, guid: 32fed54ad91f8dd41b3e9081bcfc291a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2654,6 +2728,82 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07814b2d96b0d9848910a14a9645020b, type: 3}
+--- !u!1 &923356203
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 923356204}
+  - component: {fileID: 923356206}
+  - component: {fileID: 923356205}
+  m_Layer: 5
+  m_Name: FrameButtons
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &923356204
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 923356203}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 844127323}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 311.9, y: -111.8}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &923356205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 923356203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 8e40fc46707c9124e9b4a3435b76b622, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &923356206
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 923356203}
+  m_CullTransparentMesh: 1
 --- !u!1 &945763945
 GameObject:
   m_ObjectHideFlags: 0
@@ -3243,63 +3393,6 @@ Transform:
   m_Father: {fileID: 1792672025}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1076126441
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 366398859}
-    m_Modifications:
-    - target: {fileID: 4486641351179627472, guid: 32fed54ad91f8dd41b3e9081bcfc291a, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4486641351179627472, guid: 32fed54ad91f8dd41b3e9081bcfc291a, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -3.607787
-      objectReference: {fileID: 0}
-    - target: {fileID: 4486641351179627472, guid: 32fed54ad91f8dd41b3e9081bcfc291a, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.7052415
-      objectReference: {fileID: 0}
-    - target: {fileID: 4486641351179627472, guid: 32fed54ad91f8dd41b3e9081bcfc291a, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.07636176
-      objectReference: {fileID: 0}
-    - target: {fileID: 4486641351179627472, guid: 32fed54ad91f8dd41b3e9081bcfc291a, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4486641351179627472, guid: 32fed54ad91f8dd41b3e9081bcfc291a, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4486641351179627472, guid: 32fed54ad91f8dd41b3e9081bcfc291a, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4486641351179627472, guid: 32fed54ad91f8dd41b3e9081bcfc291a, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4486641351179627472, guid: 32fed54ad91f8dd41b3e9081bcfc291a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4486641351179627472, guid: 32fed54ad91f8dd41b3e9081bcfc291a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4486641351179627472, guid: 32fed54ad91f8dd41b3e9081bcfc291a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4486641351179627502, guid: 32fed54ad91f8dd41b3e9081bcfc291a, type: 3}
-      propertyPath: m_Name
-      value: HiddenSprite
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 32fed54ad91f8dd41b3e9081bcfc291a, type: 3}
 --- !u!1 &1159695000
 GameObject:
   m_ObjectHideFlags: 0
@@ -3865,7 +3958,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3900108755196472087, guid: d9fa78e8c3c4f2b4b8f7f77ca8426cca, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3900108755196472087, guid: d9fa78e8c3c4f2b4b8f7f77ca8426cca, type: 3}
       propertyPath: m_AnchorMax.x
@@ -4236,11 +4329,6 @@ Transform:
   m_Father: {fileID: 1792672025}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &1529408066 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4486641351179627472, guid: 32fed54ad91f8dd41b3e9081bcfc291a, type: 3}
-  m_PrefabInstance: {fileID: 1076126441}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1639327113
 GameObject:
   m_ObjectHideFlags: 0
@@ -4979,7 +5067,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4486641351179627472, guid: 32fed54ad91f8dd41b3e9081bcfc291a, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4486641351179627472, guid: 32fed54ad91f8dd41b3e9081bcfc291a, type: 3}
       propertyPath: m_LocalScale.x
@@ -5052,6 +5140,10 @@ PrefabInstance:
     - target: {fileID: 4486641351179627502, guid: 32fed54ad91f8dd41b3e9081bcfc291a, type: 3}
       propertyPath: m_Name
       value: EasterEgg
+      objectReference: {fileID: 0}
+    - target: {fileID: 4486641351179627502, guid: 32fed54ad91f8dd41b3e9081bcfc291a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 32fed54ad91f8dd41b3e9081bcfc291a, type: 3}
@@ -5150,7 +5242,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 366398859}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &4150261120296006777
 SpriteRenderer:
@@ -5338,7 +5430,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 366398859}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4486641350613363906
 MonoBehaviour:
