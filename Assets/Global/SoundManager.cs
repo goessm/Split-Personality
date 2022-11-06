@@ -11,6 +11,8 @@ public class SoundManager : MonoBehaviour
 	// Random pitch adjustment range.
 	public float LowPitchRange = .95f;
 	public float HighPitchRange = 1.05f;
+
+	public AudioClip getItemClip;
 	// Singleton instance.
 	public static SoundManager Instance = null;
 	

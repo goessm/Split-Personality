@@ -40,21 +40,25 @@ public class Inventory : MonoBehaviour
     public static void makeItem0Visible() {
         makeItemVisible(0);
         findAndSetInactive("Zeitung");
+        SoundManager.Instance.Play(SoundManager.Instance.getItemClip);
     }
 
     public static void makeItem1Visible() {
         makeItemVisible(1);
         findAndSetInactive("StuffedAnimal");
+        SoundManager.Instance.Play(SoundManager.Instance.getItemClip);
     }
 
     public static void makeItem2Visible() {
         makeItemVisible(2);
         findAndSetInactive("LoveLetter");
+        SoundManager.Instance.Play(SoundManager.Instance.getItemClip);
     }
 
     public static void makeItem3Visible() {
         makeItemVisible(3);
         findAndSetInactive("EasterEgg");
+        SoundManager.Instance.Play(SoundManager.Instance.getItemClip);
     }
 
     public static void makeItemVisible(int index)
