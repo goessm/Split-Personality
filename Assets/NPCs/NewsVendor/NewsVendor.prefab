@@ -295,6 +295,54 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4748820573108294689}
     m_Modifications:
+    - target: {fileID: 3193191174705934322, guid: 8eb1267084cf69e4096c3019cd8bf8ef, type: 3}
+      propertyPath: json
+      value: "{\"Options\":[],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":1}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":201,\"yPos\":-608},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Such
+        tragedy! The woman\xB4s necklace got stolen?\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Paper
+        Vendor\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":2}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":284,\"yPos\":-465.8},\"ID\":1,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"I
+        know her, she is quite famous. Appears in the papers all the time.\",\"parentUIDs\":[0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Paper
+        Vendor\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":3}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":382,\"yPos\":-326.799927},\"ID\":2,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"And
+        that gem ... I read about it, too! It\xB4s worth about $25,000! \",\"parentUIDs\":[1],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Paper
+        Vendor\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":4}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":318.8,\"yPos\":-195.200012},\"ID\":3,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"That
+        she would bring it to a shady place like this ...\",\"parentUIDs\":[2],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Paper
+        Vendor\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":5}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":330.8,\"yPos\":-39.2000122},\"ID\":4,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"With
+        beggers lingering around very corner!\",\"parentUIDs\":[3],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Paper
+        Vendor\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":6}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":319.8,\"yPos\":73.79999},\"ID\":5,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"I
+        bet those little pests are also responsible for my \\\"lost\\\" pocket watch!\",\"parentUIDs\":[4],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Paper
+        Vendor\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":317.8,\"yPos\":209.799988},\"ID\":6,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"...
+        The Banker? He bought the newspaper earlier.\",\"parentUIDs\":[5],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Paper
+        Vendor\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":327.8,\"yPos\":351.8},\"ID\":7,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"He
+        seemed really interested in the article about the lady.\",\"parentUIDs\":[6],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Paper
+        Vendor\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3193191174705934322, guid: 8eb1267084cf69e4096c3019cd8bf8ef, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3193191174705934322, guid: 8eb1267084cf69e4096c3019cd8bf8ef, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3193191174705934322, guid: 8eb1267084cf69e4096c3019cd8bf8ef, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5296514501783258182}
+    - target: {fileID: 3193191174705934322, guid: 8eb1267084cf69e4096c3019cd8bf8ef, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3193191174705934322, guid: 8eb1267084cf69e4096c3019cd8bf8ef, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnFirstConversationFinish
+      objectReference: {fileID: 0}
+    - target: {fileID: 3193191174705934322, guid: 8eb1267084cf69e4096c3019cd8bf8ef, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: NPCNewsVendor, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3193191174705934322, guid: 8eb1267084cf69e4096c3019cd8bf8ef, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 7769203481173120853, guid: 8eb1267084cf69e4096c3019cd8bf8ef, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -338,6 +386,34 @@ PrefabInstance:
     - target: {fileID: 7769203481173120853, guid: 8eb1267084cf69e4096c3019cd8bf8ef, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8270880587520032127, guid: 8eb1267084cf69e4096c3019cd8bf8ef, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8270880587520032127, guid: 8eb1267084cf69e4096c3019cd8bf8ef, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8270880587520032127, guid: 8eb1267084cf69e4096c3019cd8bf8ef, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5296514501783258182}
+    - target: {fileID: 8270880587520032127, guid: 8eb1267084cf69e4096c3019cd8bf8ef, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8270880587520032127, guid: 8eb1267084cf69e4096c3019cd8bf8ef, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnFirstConversationFinish
+      objectReference: {fileID: 0}
+    - target: {fileID: 8270880587520032127, guid: 8eb1267084cf69e4096c3019cd8bf8ef, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: NPCNewsVendor, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8270880587520032127, guid: 8eb1267084cf69e4096c3019cd8bf8ef, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8481007757370467542, guid: 8eb1267084cf69e4096c3019cd8bf8ef, type: 3}
       propertyPath: m_Name

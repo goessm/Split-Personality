@@ -4,28 +4,28 @@ using UnityEngine;
 
 public class Hidden : MonoBehaviour
 {
+    public string UnhideEvent;
 
     void OnEnable()
     {
-        print("animal enable");
-        EventManager.StartListening("SpawnStuffedAnimal", Show);
+        EventManager.StartListening(UnhideEvent, Show);
     }
 
     void OnDestroy()
     {
-        EventManager.StopListening("SpawnStuffedAnimal", Show);
+        EventManager.StopListening(UnhideEvent, Show);
     }
 
 
     void Start()
     {
-        print("hellow world");
-        gameObject.SetActive(false);
+        if (UnhideEvent != null) {
+            gameObject.SetActive(false);
+        }
     }
 
     public void Show()
     {
-        print("hello");
         gameObject.SetActive(true);
     }
 
