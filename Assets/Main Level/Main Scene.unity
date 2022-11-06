@@ -5096,7 +5096,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73f22fe44b1a96849b54468a5a362568, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  UnhideEvent: 
+  UnhideEvent: SpawnStuffedAnimal
 --- !u!212 &4486641350613363904
 SpriteRenderer:
   m_ObjectHideFlags: 0
