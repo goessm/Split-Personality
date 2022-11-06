@@ -161,7 +161,7 @@ GameObject:
   - component: {fileID: 6865481523000351809}
   - component: {fileID: 2376476106602322827}
   - component: {fileID: 6927780745524371507}
-  - component: {fileID: 7519207807871090055}
+  - component: {fileID: 5296514501783258182}
   m_Layer: 0
   m_Name: Static Sprite
   m_TagString: Untagged
@@ -284,7 +284,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &7519207807871090055
+--- !u!114 &5296514501783258182
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -293,7 +293,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8242541588198096703}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 97c26583708249a4b84abba4e128da1a, type: 3}
+  m_Script: {fileID: 11500000, guid: ab94cbeb5aebe9a45bd984d03a37f8cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   conversations:
