@@ -1021,6 +1021,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5867411248741611028}
     m_Modifications:
+    - target: {fileID: 4509272902597838532, guid: 9353b339babdd5243a22df93c78adef1, type: 3}
+      propertyPath: m_text
+      value: Today's newspaper. It contains details about the victim and the gem
+        used for her necklace.
+      objectReference: {fileID: 0}
     - target: {fileID: 4509272903191186489, guid: 9353b339babdd5243a22df93c78adef1, type: 3}
       propertyPath: m_Name
       value: ItemTooltip
@@ -1142,7 +1147,8 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4509272902597838532, guid: 9353b339babdd5243a22df93c78adef1, type: 3}
       propertyPath: m_text
-      value: I found this item3
+      value: A letter adressed on the banker. "My dearest Augustus, please meet me
+        at Bankerstreet early in the morning in two days. Love, Emily."
       objectReference: {fileID: 0}
     - target: {fileID: 4509272903191186489, guid: 9353b339babdd5243a22df93c78adef1, type: 3}
       propertyPath: m_Name
@@ -1248,7 +1254,8 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4509272902597838532, guid: 9353b339babdd5243a22df93c78adef1, type: 3}
       propertyPath: m_text
-      value: I found this item2
+      value: The little girl's plushie. One side of it is ripped open with the string
+        of a pocket watch hanging out of it.
       objectReference: {fileID: 0}
     - target: {fileID: 4509272903191186489, guid: 9353b339babdd5243a22df93c78adef1, type: 3}
       propertyPath: m_Name
@@ -1354,7 +1361,8 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4509272902597838532, guid: 9353b339babdd5243a22df93c78adef1, type: 3}
       propertyPath: m_text
-      value: I found this item4
+      value: Congratulations for finding the easter egg! You are a real detective.
+        Please don't reuse the stock image though.
       objectReference: {fileID: 0}
     - target: {fileID: 4509272903191186489, guid: 9353b339babdd5243a22df93c78adef1, type: 3}
       propertyPath: m_Name
