@@ -26,6 +26,13 @@ public class SolveCase : MonoBehaviour
         } else {
             SoundManager.Instance.Play(SoundManager.Instance.wrongClip);
         }
+
+        StartCoroutine(waiter());
+    }
+
+    IEnumerator waiter()
+    {
+        yield return new WaitForSeconds(5);
         SceneManager.LoadScene("Menu");
     }
 
