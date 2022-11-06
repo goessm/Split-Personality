@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ButtonPress : MonoBehaviour
 {
@@ -13,11 +14,10 @@ public class ButtonPress : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if () //Still need to add ButtonPress Event
+        if (true) //Still need to add ButtonPress Event
         {
             Debug.Log(Input.touchCount);
-            Application.LoadLevel ("Main Scene");
-            Application.UnloadLevel ("Menu");
+            SceneManager.LoadScene("Main Scene");
         }
     }
 }
