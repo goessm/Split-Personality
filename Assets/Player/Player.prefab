@@ -141,6 +141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 5460456640015238433}
+  moveState: 0
 --- !u!114 &4342853792798381653
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -246,6 +247,10 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 78bbda77-c436-477e-8802-ef8ba1da2b8e
     m_ActionName: Player/Monokel[/Keyboard/m]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 7824cba5-ee2f-4e60-af19-82d93181a416
+    m_ActionName: Player/Talk[/Keyboard/e]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -338,6 +343,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 391528714704502864, guid: 1e0f098c3bcbaf04a8921ed2a03e5fbf, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 5699435816390410516}
     - target: {fileID: 1350212711811756607, guid: 1e0f098c3bcbaf04a8921ed2a03e5fbf, type: 3}
       propertyPath: m_Name
       value: Monokel

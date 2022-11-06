@@ -7,16 +7,19 @@ using UnityEngine.InputSystem;
 public class PlayerMovement : MonoBehaviour
 {
     public Animator animator;
+    public MoveState moveState;
+    public Monokel monokel;
     private Vector2 moveSpeed = new Vector2(100, 50);
     private Vector2 moveInput;
     private Rigidbody2D rigidBody;
-    private MoveState moveState;
     private List<GameObject> npcsInRange = new List<GameObject>();
 
 
-    private enum MoveState {
+    public enum MoveState {
         Moving,
         Frozen,
+        Talking,
+
     }
 
     public void meetNPC(GameObject npc)
@@ -37,18 +40,18 @@ public class PlayerMovement : MonoBehaviour
     
     void OnEnable ()
     {
-        EventManager.StartListening ("PlayerTalking", OnPlayerTalking);
-        EventManager.StartListening ("PlayerStopTalking", OnPlayerStopTalking);
         EventManager.StartListening ("MonokelOn", OnMonokelOn);
         EventManager.StartListening ("MonokelOff", OnMonokelOff);
+        ConversationManager.OnConversationStarted += OnPlayerTalking;
+        ConversationManager.OnConversationEnded += OnPlayerStopTalking;
     }
 
     void OnDisable ()
     {
-        EventManager.StopListening ("PlayerTalking", OnPlayerTalking);
-        EventManager.StopListening ("PlayerStopTalking", OnPlayerStopTalking);
         EventManager.StopListening ("MonokelOn", OnMonokelOn);
         EventManager.StopListening ("MonokelOff", OnMonokelOff);
+        ConversationManager.OnConversationStarted -= OnPlayerTalking;
+        ConversationManager.OnConversationEnded -= OnPlayerStopTalking;
     }
     
     void Awake()
@@ -56,11 +59,13 @@ public class PlayerMovement : MonoBehaviour
         DontDestroyOnLoad(this.gameObject);
         rigidBody = GetComponent<Rigidbody2D>();
         moveState = MoveState.Moving;
+        monokel = GameObject.FindObjectOfType<Monokel>();
     }
 
     void OnPlayerTalking()
     {
-        moveState = MoveState.Frozen;
+        moveState = MoveState.Talking;
+        monokel?.MonokelOff();
     }
 
     void OnPlayerStopTalking()
@@ -86,6 +91,9 @@ public class PlayerMovement : MonoBehaviour
                 MovementTick();
                 break;
             case MoveState.Frozen:
+                rigidBody.velocity = Vector2.zero;
+                break;
+            case MoveState.Talking:
                 rigidBody.velocity = Vector2.zero;
                 break;
         }

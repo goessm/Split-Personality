@@ -6,10 +6,13 @@ using UnityEngine.InputSystem;
 public class Monokel : MonoBehaviour
 {
     private bool monokel = true;
+    private PlayerMovement playerMover;
     
     void Start()
     {
         MonokelOff();
+        playerMover = GameObject.FindObjectOfType<PlayerMovement>();
+
     }
 
     public void OnMonokelInput(InputAction.CallbackContext ctx)
@@ -31,6 +34,7 @@ public class Monokel : MonoBehaviour
     public void MonokelOn()
     {
         if (monokel) return;
+        if (playerMover && playerMover.moveState != PlayerMovement.MoveState.Moving) return;
         monokel = true;
         gameObject.SetActive(monokel);
         EventManager.TriggerEvent("MonokelOn");
