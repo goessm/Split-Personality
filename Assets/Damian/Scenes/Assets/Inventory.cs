@@ -20,6 +20,7 @@ public class Inventory : MonoBehaviour
         EventManager.StartListening("zeitungPickUp", makeItem0Visible);
         EventManager.StartListening("stuffedAnimalPickUp", makeItem1Visible);
         EventManager.StartListening("loveletterPickUp", makeItem2Visible);
+        EventManager.StartListening("eastereggPickUp", makeItem3Visible);
     }
 
     void OnDisable()
@@ -27,6 +28,7 @@ public class Inventory : MonoBehaviour
         EventManager.StopListening("zeitungPickUp", makeItem0Visible);
         EventManager.StopListening("stuffedAnimalPickUp", makeItem1Visible);
         EventManager.StopListening("loveletterPickUp", makeItem2Visible);
+        EventManager.StopListening("eastereggPickUp", makeItem3Visible);
     }
 
     public static void findAndSetInactive(string name)
@@ -46,13 +48,13 @@ public class Inventory : MonoBehaviour
     }
 
     public static void makeItem2Visible() {
-        makeItemVisible(2); // visible im inventar
+        makeItemVisible(2);
         findAndSetInactive("LoveLetter");
     }
 
     public static void makeItem3Visible() {
         makeItemVisible(3);
-        // TODO findAndSetInactive("????");
+        findAndSetInactive("EasterEgg");
     }
 
     public static void makeItemVisible(int index)
