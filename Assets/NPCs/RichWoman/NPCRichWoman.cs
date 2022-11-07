@@ -18,11 +18,8 @@ public class NPCRichWoman : NPC
         {
             ConversationManager.Instance.StartConversation(conversations[0]);
             introDone = true;
-        } else
-        {
-            base.OnTriggerEnter2D(other);
-
         }
+            base.OnTriggerEnter2D(other);
     }
 
 }
