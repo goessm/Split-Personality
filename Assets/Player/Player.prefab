@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3101085018409172365}
   - component: {fileID: 4342853792798381653}
   - component: {fileID: 5460456640015238433}
-  - component: {fileID: 1291298530430597351}
+  - component: {fileID: 5695054950288261259}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -252,6 +252,10 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 7824cba5-ee2f-4e60-af19-82d93181a416
     m_ActionName: Player/Talk[/Keyboard/e]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: b3125871-3338-494b-8640-633b49340ee4
+    m_ActionName: Player/Any[/Keyboard/anyKey]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -277,8 +281,8 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!58 &1291298530430597351
-CircleCollider2D:
+--- !u!70 &5695054950288261259
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -290,9 +294,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 1
+  m_Offset: {x: 0, y: -0.8}
+  m_Size: {x: 3.5, y: 2.8}
+  m_Direction: 1
 --- !u!1001 &2148142378217947030
 PrefabInstance:
   m_ObjectHideFlags: 0
